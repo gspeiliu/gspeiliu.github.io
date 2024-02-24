@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Pei Liu"
   pronouns         : "he/him" # example: "she/her"  
-  bio              : ""
+  bio              : # ""
   location         : "Clayton, VIC"
-  employer         : ""
+  employer         : # ""
   uri              : # URL
   email            : "Pei.Liu@data61.csiro.au" 
 
