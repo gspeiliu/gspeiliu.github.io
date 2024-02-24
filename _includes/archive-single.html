@@ -28,9 +28,9 @@
 
     <h2 class="archive__item-title" itemprop="headline">
     {% if post.collection == 'publications_conference' %}
-    <p> {{title}} </p> <a href=" {{ post.puburl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true" style="font-size:24px;color:red"></></a>
+    <p> {{title}} </p> <a href=" {{ post.puburl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true" style="font-size:24px;color:red"></i></a>
       {% elsif post.collection == 'publications_journal' %}
-      <p> {{title}} </p> <a href=" {{ post.puburl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true" style="font-size:24px;color:red"></></a>
+      <p> {{title}} </p> <a href=" {{ post.puburl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true" style="font-size:24px;color:red"></i></a>
       {% else %}
           {% if post.link %}
             <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
