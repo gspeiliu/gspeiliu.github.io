@@ -27,7 +27,7 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
-        {% if post.collection == 'publications' %}
+        {% if post.collection == 'publications_conference' or post.collection == 'publications_journal' %}
       <p> {{title}} <a href=" {{ post.puburl }}"><i class="fa fa-file-pdf-o" style="font-size:24px;color:red"></i><div class="icon">{%- include ../assets/fonts/PDF_file_icon.svg.png -%}</div></a></p>
       {% else %}
           {% if post.link %}
@@ -44,7 +44,7 @@
 
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.collection == 'publications' %}
+        {% elsif post.collection == 'publications_conference' or post.collection == 'publications_journal' %}
           {% if post.venue %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% endif %}
