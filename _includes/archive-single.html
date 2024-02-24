@@ -44,7 +44,7 @@
 
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.collection == 'publications_conference' or post.collection == 'publications_journal' %}
+        {% elsif post.collection == 'publications' %}
           {% if post.venue %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% endif %}
@@ -66,6 +66,10 @@
     <i class="archive__item-excerpt" itemprop="description">{{ post.pubsite | markdownify }}</i>
     {% endif %}
     
+    {% if post.puburl %}
+    <a href="{{ post.puburl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i></a>
+    {% endif %}
+
     {% if post.citation and post.paperurl %}
       <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}">{{ post.paperurl }}</a></p>
     {% elsif post.citation %}
