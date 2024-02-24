@@ -28,9 +28,9 @@
 
     <h2 class="archive__item-title" itemprop="headline">
     {% if post.collection == 'publications_conference' %}
-    <p> {{title}} </p> <a href=" {{ post.puburl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true" style="font-size:24px;color:red"></i></a>
+    <p> {{title}} <a href=" {{ post.puburl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true" style="font-size:24px;color:red"></i></a></p>
       {% elsif post.collection == 'publications_journal' %}
-      <p> {{title}} </p> <a href=" {{ post.puburl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true" style="font-size:24px;color:red"></i></a>
+      <p> {{title}} <a href=" {{ post.puburl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true" style="font-size:24px;color:red"></i></a></p>
       {% else %}
           {% if post.link %}
             <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
@@ -58,14 +58,6 @@
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
-    {% endif %}
-
-    {% if post.authors %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.authors | markdownify }}</p>
-    {% endif %}
-
-    {% if post.pubsite %}
-    <i class="archive__item-excerpt" itemprop="description">{{ post.pubsite | markdownify }}</i>
     {% endif %}
 
     {% if post.citation and post.paperurl %}
