@@ -1,6 +1,6 @@
 ---
-# title: "Automated Testing of Definition-Use Data Flow for Multithreaded Programs"
-excerpt: "***Automated Testing of Definition-Use Data Flow for Multithreaded Programs***"
+title: "Automated Testing of Definition-Use Data Flow for Multithreaded Programs"
+# excerpt: "***Automated Testing of Definition-Use Data Flow for Multithreaded Programs***"
 collection: publications
 # permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: "Xiaodong Zhang, Zijiang Yang, Qinghua Zheng, **Pei Liu**, Jialiang Chang, Yu Hao and Ting Liu <br />
