@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Pei Liu"
   avatar           : "images/profile.png"
-  bio              : "Monash University"
+  bio              : "CSIRO's Data61"
   location         : "Clayton, VIC, Australia"
   employer         : #"Hefei General Machinery Research Institute"
   pubmed           : 
