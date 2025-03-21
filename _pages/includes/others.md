@@ -11,7 +11,8 @@
 - *2015* National Scholarship, China
 
 # 📂 Services
-- PC Member – MOBILESoft 2024, MOBILESoft 2023
+- PC Member – SANER 2023 - RENE Track
 - Journal Reviewer – ACM Transactions on Software Engineering and Methodology (TOSEM)
 - Web Chair – MOBILESoft 2023
+- Publicity Chair: AMobile 2022, AMobile 2023
 
