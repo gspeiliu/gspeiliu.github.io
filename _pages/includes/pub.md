@@ -6,6 +6,11 @@ Mingyi Zhou, Xiang Gao, **Pei Liu**, John Grundy, Xiao Chen, Chunyang Chen, Li L
 ISSTA'24, The ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)
 [[paper](http://gspeiliu.github.io/files/zhou2024model.pdf)]
 
+- **Neural Library Recommendation by Embedding Project-Library Knowledge Graph** \
+Bo Li, Haowei Quan, Jiawei Wang, **Pei Liu**, Haipeng Cai, Yuan Miao, Yun Yang, Li Li \
+TSE, IEEE Transactions on Software Engineering
+[[paper](http://gspeiliu.github.io/files/li2024neural.pdf)]
+
 
 ### *2023*
 
