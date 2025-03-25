@@ -1,5 +1,5 @@
 # 💻 Work Experience
-- *2017.07 - 2019.12*, SAP, Xi'an.
+- *2017.07 - 2019.12*, SAP, Xi'an, China
 
 # 📖 Educations
 - *2019.23 - 2023.09*, Ph.D., Monash University, Australia.
@@ -7,7 +7,7 @@
 - *2010.09 - 2014.06*, B.Eng., Sichuan University, Chengdu, China.
 
 # 🏅 Honors and Awards
-- *2019* Monash FIT Ph.D. Scholarship
+- *2019* Monash FIT Ph.D. Scholarship, Australia
 - *2015* National Scholarship, China
 
 # 📂 Services
