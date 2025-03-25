@@ -8,8 +8,13 @@ ISSTA'24, The ACM SIGSOFT International Symposium on Software Testing and Analys
 
 - **Neural Library Recommendation by Embedding Project-Library Knowledge Graph** \
 Bo Li, Haowei Quan, Jiawei Wang, **Pei Liu**, Haipeng Cai, Yuan Miao, Yun Yang, Li Li \
-TSE, IEEE Transactions on Software Engineering
+TSE, IEEE Transactions on Software Engineering, 2024
 [[paper](http://gspeiliu.github.io/files/li2024neural.pdf)]
+
+- **Demystifying React Native Android Apps for Static Analysis** \
+Yonghui Liu, Xiao Chen, **Pei Liu**, Jordan Samhi, Chunyang Chen, John Grundy, and Li Li \
+TOSEM, ACM Transactions on Software Engineering and Methodology, 2024
+[[paper](http://gspeiliu.github.io/files/liu2024demystifying.pdf)]
 
 
 ### *2023*
