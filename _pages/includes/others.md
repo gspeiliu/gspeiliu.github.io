@@ -12,7 +12,7 @@
 
 # 📂 Services
 - PC Member – SANER 2023 - RENE Track, MSR 2023 Junior PC
-- Journal Reviewer – ACM Transactions on Software Engineering and Methodology (TOSEM)
+- Journal Reviewer – ACM Transactions on Software Engineering and Methodology (TOSEM), IEEE Transactions on Software Engineering (TSE), ACM Transactions on Architecture and Code Optimization (TACO)
 - Web Chair – MOBILESoft 2023
 - Publicity Chair: AMobile 2022, AMobile 2023
 
